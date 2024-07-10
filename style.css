@@ -196,6 +196,9 @@ height: 1350px;
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.379);
 border-radius: 8px;
+font-weight: 600;
+font-size: 12px;
+color: black;
 
 }
 
@@ -249,7 +252,9 @@ border-radius: 8px;
     gap: 20px;
 }
 
-
+.info-box-child a{
+    text-decoration: none;
+}
 
 
 
