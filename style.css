@@ -163,7 +163,7 @@ margin: auto;
     border-radius: 16px;
 
 background: rgba(13, 19, 33, 0.033);
-width: 991px;
+width: 1100px;
 height: 1350px;
     padding: 0 0;
     display: flex;
@@ -191,7 +191,7 @@ height: 1350px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 823px;
+    width: 950px;
     height: 1200px;
     overflow: hidden;
     gap: 25px;
@@ -217,7 +217,7 @@ border-radius: 8px;
     
     font-size: 14px;
     align-items: center;
-    width: 823px;
+    width: 950px;
     height: 350px;
     display: flex;
     justify-content: space-around;
@@ -253,7 +253,7 @@ border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 991px;
+    width: 1100px;
     height: 800px;
     margin: auto;
     text-align: center;
@@ -262,10 +262,10 @@ border-radius: 8px;
     margin-bottom: 100px;
 }
 .inspiration-header{
-width: 820px;
-height: 200px;
+    
+width:900px;
+height: 180px;
 margin-bottom: 0;
-padding: 20px;
 
 
 
@@ -274,8 +274,12 @@ padding: 20px;
 }
 
 .inspiration-header p{
+   
+    
     letter-spacing: 0px;
-    line-height: 20px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
 
 
 }
@@ -284,7 +288,7 @@ padding: 20px;
 
 .inspiration-header h1{
 
-margin-bottom: 24px;
+margin-bottom: 18px;
 
 }
 .iframe{
@@ -294,7 +298,7 @@ margin-bottom: 24px;
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
-width: 991px;
+width: 1100px;
     height: 534px;
 
 }
@@ -305,26 +309,26 @@ iframe{
 
 
 .target{
-    width: 991px;
+    width: 1100px;
     height: 620px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .headers{
-    width: 850px;
+    width: 900px;
     height: fit-content;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .headers h1{
     margin-bottom: 20px;
 }
 .items{
-    width: 991px;
+    width: 1100px;
     height: 400px;
     display: flex;
     align-items: center;
@@ -404,7 +408,7 @@ background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 991px;
+    width: 1100px;
     height: 272px;
     margin: auto;
     margin-bottom: 69px;
@@ -472,7 +476,7 @@ height: 87px;
 }
 
 .foot-items{
-    width: 990px;
+    width: 1100px;
 
     display: flex;
     justify-content: space-between;
