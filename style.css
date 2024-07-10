@@ -152,12 +152,9 @@ margin: auto;
     margin-top: 40px;
     padding: 15px 20px;
     border-radius: 10px;
-
-}
-.banner button{
-
     color: white;
     text-decoration: none;
+
 }
 
 
@@ -177,7 +174,7 @@ height: 1350px;
     margin: auto;
     margin-bottom: 100px;
 }
-.hp{
+.goal-header{
     text-align: center;
     width: 741px;
     height: 100px;
@@ -185,7 +182,7 @@ height: 1350px;
     padding: 0;
 
 }
-.hp p{
+.goal-header p{
     margin: 20px 0 30px 0;
 }
 
@@ -267,7 +264,7 @@ border-radius: 8px;
 .inspiration-header{
 width: 820px;
 height: 200px;
-margin-bottom: 20px;
+margin-bottom: 0;
 padding: 20px;
 
 
