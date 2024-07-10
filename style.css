@@ -61,19 +61,20 @@ padding:15px 0px 15px 30px;
 
 
 .banner{
+    
     border: 2px dashed rgba(0, 0, 0, 0.287);
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 567px;
 
-    background-image: url('./assets/Hero-bg.png');
+    background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('./assets/Hero-bg.png');
 
     background-repeat: no-repeat;
     background-size: cover;
 
     text-align: center;
-    color: black;
+    color: white;
     margin-bottom: 64px;
     padding: 0 0 60px 0;
 
@@ -107,11 +108,12 @@ padding:15px 0px 15px 30px;
 }
 .header-title h1{
     margin-bottom: 18px;
-    line-height: 58px;
-    font-size: 40px;
+    line-height: 46px;
+    font-size: 35px;
 font-weight: 800;
 }
 .header-title p{
+    font-size: 15px;
 
 width: 740px;
 margin: auto;
@@ -163,9 +165,9 @@ margin: auto;
 .goal-box {
     border-radius: 16px;
 
-background: rgba(13, 19, 33, 0.02);
+background: rgba(13, 19, 33, 0.033);
 width: 991px;
-height: 1213px;
+height: 1350px;
     padding: 0 0;
     display: flex;
     justify-content: center;
@@ -183,15 +185,17 @@ height: 1213px;
     padding: 0;
 
 }
+.hp p{
+    margin: 20px 0 30px 0;
+}
 
 .inbox {
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width: 823px;
-    height: 1074px;
+    height: 1200px;
     overflow: hidden;
     gap: 25px;
 }
@@ -203,19 +207,21 @@ height: 1213px;
     justify-content: center;
     padding: 12px 20px;
     height: 40px;
-    width: 100px;
+    width: 150px;
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
+border: 1px solid rgba(13, 19, 33, 0.379);
+border-radius: 8px;
 
 }
 
 .info-box {
     background-color: white;
+    margin-top: 10px;
+    
     font-size: 14px;
     align-items: center;
     width: 823px;
-    height: 292px;
+    height: 350px;
     display: flex;
     justify-content: space-around;
     padding: 0px 20px 30px 0;
@@ -251,7 +257,7 @@ opacity: 0.7;
     flex-direction: column;
     align-items: center;
     width: 991px;
-    height: 620px;
+    height: 800px;
     margin: auto;
     text-align: center;
     
@@ -259,23 +265,35 @@ opacity: 0.7;
     margin-bottom: 100px;
 }
 .inspiration-header{
-width: 741px;
-height: 98px;
-margin-bottom: 40px;
+width: 820px;
+height: 200px;
+margin-bottom: 20px;
+padding: 20px;
+
+
 
 
 
 }
+
+.inspiration-header p{
+    letter-spacing: 0px;
+    line-height: 20px;
+
+
+}
+
+
+
 .inspiration-header h1{
 
 margin-bottom: 24px;
 
 }
 .iframe{
-    width: fit-content;
-    height: fit-content;
-    padding: 10px 20px 2px 20px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
@@ -310,13 +328,15 @@ iframe{
 }
 .items{
     width: 991px;
-    height: 260px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
 .box{
+    width: 316px;
+    height: fit-content;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -326,6 +346,16 @@ justify-content: space-between;
 
 
 
+
+}
+.box p{
+    font-weight: 1000px;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.box a{
+    color: black;
 }
 .box img{
     width: 35px;
@@ -410,6 +440,9 @@ background: rgb(255, 255, 255);
 
 
 }
+.support input::placeholder{
+    opacity: 0.4;
+}
 .support-header{
     display: flex;
     flex-direction: column;
@@ -419,6 +452,7 @@ background: rgb(255, 255, 255);
 }
 
 .support button{
+    font-weight: 800;
     width: 104px;
     height: 49px;
     border-radius: 8px;
@@ -445,6 +479,12 @@ height: 87px;
 
     display: flex;
     justify-content: space-between;
+}
+.foot-items h5{
+font-size: 12px;
+letter-spacing: 2px;
+opacity: 0.5;
+
 }
 .foot-img{
     display: flex;
